@@ -47,4 +47,4 @@ Whenever a developer opens a pull request, they should be sure to include all of
 
 Now that you have an idea of the work flow, let's get the remote repository on your local drive. 
 
-### [Next - Step 4: Clone or Fork Repository](4_CloneWebsite.md)
+### [Next - Step 4: Clone Repository](4_CloneWebsite.md)
