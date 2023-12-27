@@ -5,10 +5,13 @@ Many of the Git commands are run in Terminal. What is Terminal? The Mac Terminal
 Here are useful commands for terminal ($ id the prompt and not included):
 
 ```
-- To change directory (enter folder name after cd): 
-$ cd <folder_Name>
-- To list content of current directory:
+- To see the path of your current directory (Print Working Directory):
+$ pwd
+- To list content of current directory (List items):
 $ ls
+- To navigate to directory (enter folder name after cd): 
+$ cd <folder_Name>
+
 - 
 ```
 
