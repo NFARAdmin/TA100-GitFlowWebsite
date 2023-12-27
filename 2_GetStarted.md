@@ -2,6 +2,15 @@
 
 ## Intro to Terminal
 Many of the Git commands are run in Terminal. What is Terminal? The Mac Terminal is a command line interface (CLI) for the MacOS operating system (OS). Percy Grunwald from TopTechSkills has an excellent 15min video about Terminal for beginners. Please take a moment to view the [video](https://www.youtube.com/watch?v=aKRYQsKR46I) and familiarize yourself with Terminal then come back here. If interested in learning more on your own time, a more in depth explanation can be found [here](https://www.youtube.com/watch?v=ogWoUU2DXBU). 
+Here are useful commands for terminal ($ id the prompt and not included):
+
+```
+- To change directory (enter folder name after cd): 
+$ cd <folder_Name>
+- To list content of current directory:
+$ ls
+- 
+```
 
 ## Do you have Git installed?
 Since we will be working with Macs, all steps represent MacOS. Most MacOS computers have Git pre-installed you just have to get it activated. If you want to work from home you have to take a couple more steps (more details in step 3). 
