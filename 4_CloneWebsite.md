@@ -1,25 +1,26 @@
 # Clone Team Web Site
 For our team project we will work on a website that will NOT be publicly available. It will only run locally on your invidual machines.  
 
-This repository will be a simple web page that everyone contributes to. Contribution will be limited to adding personal info to the website. Please note that letters in between greater than and less than ( `<example>` ) are examples and `%` is the Terminal prompt.  
+This repository will be a simple web page that everyone contributes to. Contribution will be limited to adding personal info to the website. Please note that letters in between greater than and less than ( `<example>` ) are examples and `%` is the Terminal prompt and not part of the Git commands.  
 
  
 
-### 1. In Terminal, navigate to your work folder and create a new folder for the exercise:   
+### 1. In Terminal, navigate to your work folder and create a new folder for the exercise:
+Substitute the # with your Cohort number
 ```
-%mkdir c14Website 
+%mkdir c#Website 
 ```
 
 ### 2. In Terminal, change to the folder:  
 ```
-%cd c14Website  
+%cd c#Website  
 ```
 ### 3. Clone the directory. You can get the clone address by navigating to the repository in a web browser and clicking on the green "<>Code" button and copying the HTTPS URL address 
  <img src="images/gitCloneCode.jpg" width="40%" length="40%"> 
  In Terminal, clone the repository using the copied URL: 
- 
+ Remember to subtitute the # with your Cohort number.
 ```
-%git clone https://github.com/TechCohort14/TA100-GitFlowWebsite.git 	 
+%git clone https://github.com/TechCohort#/TA100-GitFlowWebsite.git 	 
 ```
 At this point you can move into the repository folder you created:
 ```
