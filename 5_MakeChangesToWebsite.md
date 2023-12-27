@@ -51,12 +51,12 @@ You will update the following:
 As you make changes review your work. Save changes and refresh the browser to see your changes. Once you are satisfied with your changes you can submit for it to get merged with the main repository. 
 
 ### 6. Stage, Commit, and Push changes to your branch
-if ready to have your branch changes to merge with main repository you will have to stage, commit, and push to the remote repository.  
+If you are ready to merge the changes on your branch with main repository you will have to stage, commit, and push to the remote repository.  
 
 Stage your files: 
 
 ```
-%git add home.html
+%git add index.html
 %git add images/<cohort#.jpg>
 ```
 Commit your files: 
