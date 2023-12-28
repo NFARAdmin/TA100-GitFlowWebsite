@@ -2,17 +2,36 @@
 
 ## Intro to Terminal
 Many of the Git commands are run in Terminal. What is Terminal? The Mac Terminal is a command line interface (CLI) for the MacOS operating system (OS). Percy Grunwald from TopTechSkills has an excellent 15min video about Terminal for beginners. Please take a moment to view the [video](https://www.youtube.com/watch?v=aKRYQsKR46I) and familiarize yourself with Terminal then come back here. If interested in learning more on your own time, a more in depth explanation can be found [here](https://www.youtube.com/watch?v=ogWoUU2DXBU). 
-Here are useful commands for terminal ($ id the prompt and not included):
+Here are useful commands for terminal ($ is prompt and not part of the command):
 
 ```
 - To see the path of your current directory (Print Working Directory):
 $ pwd
 - To list content of current directory (List items):
 $ ls
-- To navigate to directory (enter folder name after cd): 
+- To navigate to a folder enter folder name after cd: 
 $ cd <folder_Name>
+- To navigate back up one folder:
+$ cd ..
+- To navigate back up two folders:
+$ cd ../..
+- To navigate to the root folder:
+$ cd /
+- To navigate to the home folder:
+$ cd ~
+- To create a file (you must enter the file extension):
+$ touch index.html
+- To create a folder (Make Directory):
+$ mkdir <folder_Name>
+- To include a space in folder or file name include a \ and then include the space:
+$ mkdir new\ folder
+this will create a folder named "new folder"
+$ touch index\ ten.html
+this will create a file named "index ten.html"
+You must also use the backslash to access the directory:
+$ cd new\ folder
+To 
 
-- 
 ```
 
 ## Do you have Git installed?
