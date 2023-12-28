@@ -39,9 +39,9 @@ $ cp webcourse/index.html ./
 $ cp <folderName> ./
 - To copy a folder and all of the contents use the -r "flag" (must be in the folder you want to copy into, expressed as ./ at the end):
 $ cp -r <folderName> ./
-Want to copy "webcourse" folder into your current folder and all of its contents you use the "-r" flag:
+Example: copy "webcourse" folder into your current folder and all of its contents you use the "-r" flag:
 $ cp -r webcourse ./
-- To include a space in folder or file name include a \ and then include the space (prefarable to not incude spaces in names):
+- To include a space in folder or file name include a \ and then include the space (try to avoid using spaces in file and folder names):
 The following will create a folder named "new folder"
 $ mkdir new\ folder
 The following will create a file named "index ten.html"
