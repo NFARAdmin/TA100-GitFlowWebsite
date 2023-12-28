@@ -2,14 +2,14 @@
 
 ## Intro to Terminal
 Many of the Git commands are run in Terminal. What is Terminal? The Mac Terminal is a command line interface (CLI) for the MacOS operating system (OS). Percy Grunwald from TopTechSkills has an excellent 15min video about Terminal for beginners. Please take a moment to view the [video](https://www.youtube.com/watch?v=aKRYQsKR46I) and familiarize yourself with Terminal then come back here. If interested in learning more on your own time, a more in depth explanation can be found [here](https://www.youtube.com/watch?v=ogWoUU2DXBU). 
-Here are useful commands for terminal ($ is prompt and not part of the command):
+Here are some useful commands for terminal ($ is prompt and not part of the command):
 
 ```
 - To see the path of your current directory (Print Working Directory):
 $ pwd
 - To list content of current directory (List items):
 $ ls
-- To navigate to a folder enter folder name after cd: 
+- To navigate to a folder enter folder name after cd (you don't include <around the name>, this is just an example): 
 $ cd <folder_Name>
 - To navigate back up one folder:
 $ cd ..
@@ -19,18 +19,37 @@ $ cd ../..
 $ cd /
 - To navigate to the home folder:
 $ cd ~
+- To clear the screen (just leave a prompt):
+$ clear
 - To create a file (you must enter the file extension):
-$ touch index.html
+$ touch <filename.html>
 - To create a folder (Make Directory):
-$ mkdir <folder_Name>
-- To include a space in folder or file name include a \ and then include the space:
+$ mkdir <folderName>
+- To remove/delete a file:
+$ rm <index.html>
+- To remove/delete an empty folder:
+$ rmdir <folderName>
+- To remove/delete a folder and all of its contents use the "-r" flag (be very careful, this can't be undone):
+$ rm -r <folderName>
+- To copy a file (must be in the folder you want to copy into, expressed as ./ at the end):
+$ cp <filepath/fileName> ./
+Example: copy "index.html" file from "webcourse" folder into your current folder:
+$ cp webcourse/index.html ./
+- To copy an empty folder (must be in the folder you want to copy into, expressed as ./ at the end):
+$ cp <folderName> ./
+- To copy a folder and all of the contents use the -r "flag" (must be in the folder you want to copy into, expressed as ./ at the end):
+$ cp -r <folderName> ./
+Want to copy "webcourse" folder into your current folder and all of its contents you use the "-r" flag:
+$ cp -r webcourse ./
+- To include a space in folder or file name include a \ and then include the space (prefarable to not incude spaces in names):
+The following will create a folder named "new folder"
 $ mkdir new\ folder
-this will create a folder named "new folder"
+The following will create a file named "index ten.html"
 $ touch index\ ten.html
-this will create a file named "index ten.html"
 You must also use the backslash to access the directory:
+The following will acccess the folder with the name "new folder"
 $ cd new\ folder
-To 
+
 
 ```
 
