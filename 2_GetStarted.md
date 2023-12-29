@@ -69,16 +69,16 @@ Since we will be working with Macs, all steps are for MacOS. Most MacOS computer
  userName@ComputerName ~ %
 ```    
 The ~ (tilde) indicates you are in the home directory.  
-Since you will be working on shared computer lets make sure to create folder for all of your work. While in this home directory you will create a folder with your name. Do create a folder enter the following command:
+Since you will be working on shared computer lets make sure to create folder for all of your work. While in this home directory create a folder with your name by entering the following command:
 ```
 mkdir <yourName>
 ```
 You just created a folder. All of your work will go in this folder. Every time you open terminal you will navigate to this folder before starting your work. 
-4. Navigate to your your folder by entering teh following command:
+4. Navigate to your your folder by entering the following command:
 ```
 % cd <yourName>
-
-Make sure to confirm that you have Git installed. You can do this by running the following command in Terminal:
+```
+5. Make sure to confirm that you have Git installed. You can do this by running the following command in Terminal:
 ```
 % git --version
 ```
@@ -89,11 +89,10 @@ Terminal will output something like this:
 
 Not installed? Here is a guide on how to install Git on your computer: [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). Follow the steps in order to install Git (make sure to follow steps for your operating system - MacOS or Windows ). 
 
-5. Once you have Git installed we need to customize the environment. Before we do that, do you have a GitHub account? If you do, great, if not, please create one here [GitHub Sign Up](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home). Make sure to use your **personal** email when creating the GitHub account. You will need to create a GitHub account in order to remotely access the repository. Remember, *Git* is local, *GitHub* is remote. Please create the GitHub account and come back here.   
+6. Once you have Git installed we need to customize the environment. Before we do that, do you have a GitHub account? If you do, great, if not, please create one here [GitHub Sign Up](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home). Make sure to use your **personal** email when creating the GitHub account. You will need to create a GitHub account in order to remotely access the repository. Remember, *Git* is local, *GitHub* is remote. Please create the GitHub account and come back here.   
 
 
-
-6. Once you have confirmed that Git is installed, you'll want to customize the environment. 
+7. Once you have confirmed that Git is installed, you'll want to customize the environment. 
 
 Open Terminal on your Mac. From the Terminal command prompt let's make sure to set up your identity by setting your user name and email address. This is important because every Git commit uses this information, and it’s immutably baked into the commits you start creating. In Terminal enter the following (enter **your** information inside the quotation marks): 
 ```
