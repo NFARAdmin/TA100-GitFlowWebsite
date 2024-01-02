@@ -49,9 +49,8 @@ The following will create a file named "index ten.html"
 You must also use the backslash to access the directory:
 The following will acccess the folder with the name "new folder"
 % cd new\ folder
-
-
 ```
+Please note that you want to refrain from using spaces when creating file/folder names. We only talk about it here in case you encounter it. Each project will have certain rules around naming conventions. The most common [naming conventions](https://www.freecodecamp.org/news/programming-naming-conventions-explained/) are camel case (camelCase), snake case (snake_case), kebab case (kebab-case), or pascal case (PascalCase). During our course we will be using camel case. 
 
 ## Do you have Git installed?
 Since we will be working with Macs, all steps are for MacOS. Most MacOS computers have Git pre-installed you just have to get it activated. If you want to work from home you have to take a couple more steps (more details in step 3). 
