@@ -60,7 +60,7 @@ If after you check the status you notice you are not on correct branch, STOP! To
 Check your status again. This my seem repetitive, but when first starting to work with branches, many developers forget to switch to the newly created branch. If you don't change to the correct branch you will be making changes to the main/master branch and your changes will NOT be accepted. Essentially, you will have lost your changes 😢.  
 
 ### 5. Now you can push this branch up to GitHub:
-Let's make sure that we push this branch to GitHub. That way we can create a pull request to have our changes merged to the main/master repository later on. 
+Let's make sure that we push this branch to GitHub (there are no updates or changes at this point). Remember, this branch is only located on your local computer. You have to "push" the local branch up the remote repository. Only after you have pushed the local branch can you create a pull request to have our changes merged to the main/master repository later on. 
 
 ```
 %git push –u origin <branch name> 
@@ -69,7 +69,7 @@ Let's make sure that we push this branch to GitHub. That way we can create a pul
 
 ![branch-dropdown](images/gitBranchDropDown.jpg)
 
-Now that you have a local branch and have it showing up remotely you can contribute your assigned changes to the website.  
+Now that you have a local branch will  and have it showing up remotely you can contribute your assigned changes to the website.  
 
 
 ### [Next - Step 5: Changes to Website:](5_MakeChangesToWebsite.md)
