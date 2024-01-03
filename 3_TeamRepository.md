@@ -5,14 +5,15 @@ Congratulations! Now you have an idea of what Git and GitHub are, and you have i
 <!-- 1. --> 
    - #### Step 1. Clone or fork repository
    - #### Step 2. Create a branch in your repository
-   - #### Step 3. Make changes to your branch. Commit, and push your changes
-   - #### Step 4. Create a pull request
-   - #### Step 5. Address review comments
-   - #### Step 6. Merge your pull request
-   - #### Step 7. Delete your branch
+   - #### Step 3. Make changes to your branch.
+   - #### Step 4. Stage changes, Commit changes, and push your changes to remote branch
+   - #### Step 5. Create a pull request
+   - #### Step 6. Address review comments
+   - #### Step 7. Merge your pull request
+   - #### Step 8. Delete your branch
  
 ## To clone or to fork, that is the question..... ?
-Any public Git repository can be forked or cloned. A *fork* creates a completely independent copy of Git repository. In contrast to a fork, a Git *clone* creates a ***linked*** copy that will continue to synchronize with the target repository. 
+Any **public** Git repository can be forked or cloned. A *fork* creates a completely independent copy of Git repository. In contrast to a fork, a Git *clone* creates a ***linked*** copy that will continue to synchronize with the target repository. 
 
 When a Git repository is cloned, the target repository remains shared amongst all of the developers who had previously contributed to it. Other developers who previously contributed to that codebase will continue to push their changes and pull updates from the cloned repository. Any developer who clones a repository can synchronize their copy of the codebase with any updates made by fellow developers.
 
@@ -28,7 +29,7 @@ If you would like to make changes directly to a repository you have the **permis
 If you don’t have permissions to contribute to the repository, but would like to implement changes anyway, a fork is the way to go. If you want, afterwards, you can create a pull request to integrate your changes to the original repository.
 
 ## What’s the difference between a Pull and a Push?
-The difference between a “pull” and a “push” is as intuitive as you think. A developer will *pull* to request a target repository to pick up their local changes and merge them into the existing code. A *push* is not a request, but a **command** (git push) used to “upload” local content or changes to a remote repository. Many of you have been *pushing* your code to your own repository. 
+The difference between a “pull” and a “push” is as intuitive as you think. The git *pull* command is used to fetch and download content from a remote repository and immediately update the local repository to match the content. A *push* is not a request, but a **command** (git push) used to “upload” local content or changes to a remote repository. Many of you may have been *pushing* your code to your own repository. 
 
 ## What is a pull-request:
 A pull request is an event to notify software developers that a team member has pushed code to a specific Git branch (or a specific version of the code repository) for a colleague to review. Once a developer opens a pull request, your team can review the potential changes introduced before merging with the central repository branch. 
