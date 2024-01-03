@@ -12,10 +12,12 @@ While in Terminal open VS code by entering the following command:
 ```
 %code .
 ```
-VS Code will open in the corresponding folder. If this does command does not launch VS Code for you, please follow these [instructions](https://code.visualstudio.com/docs/setup/mac) to configure this shortcut from Terminal.  
+VS Code will open in the corresponding folder. If this does command does not launch VS Code for you, please follow these [instructions](https://code.visualstudio.com/docs/setup/mac) to configure this shortcut from Terminal. 
+
+Don't have experience with VS Code? VS Code is a source code editor which runs on your desktop and will be using it to edit the source code. You can learn more about VS Code [here](https://code.visualstudio.com/docs/getstarted/introvideos).
 
 ### 3. Preview your work
-In order to preview your work in your browswer use Live Server. This is a VS code feature that will show a "live" version of the website and will update whne ou make chnages in the html. To access right click on the `<>home.html` file and select Open with Live Server from the pop up menu. 
+In order to preview your work in your browser use Live Server. This is a VS code feature that will show a "live" version of the website and will update when ou make changes in the html. To access right click on the `<>index.html` file and select Open with Live Server from the pop up menu. 
 
 <img src="images/SelectLiveServer.jpg" width="40%" length="40%"> 
 
