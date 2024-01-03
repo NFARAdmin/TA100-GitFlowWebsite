@@ -6,22 +6,22 @@ This repository will be a simple web page that everyone contributes to. Contribu
  
 
 ### 1. In Terminal, navigate to your work folder:
-You should have created a working folder earlier while reviewing terminal commnands: 
+You should have created a working folder earlier while reviewing terminal commands: 
 ```
 %cd <yourFolder> 
 ```
 ### 2. Clone the directory. You can get the clone address by navigating to the repository in a web browser and clicking on the green "<>Code" button and copying the HTTPS URL address 
  <img src="images/gitCloneCode.jpg" width="40%" length="40%"> 
- In Terminal, clone the repository using the copied URL: 
+ In Terminal, clone the GitTechWebsite# repository using the copied URL: 
  Remember to subtitute the # with your Cohort number.
- 
-```
-%git clone https://github.com/TechCohort#/TA100-GitFlowWebsite.git 	 
-```
-At this point you can move into the repository folder you created:
 
 ```
-%cd TA100-GitFlowWebsite
+% git clone https://github.com/TechCohort#/GitTechWebsite#.git
+```
+This will clone the repository and create a folder inside your working folder. At this point you can move into the repository folder you created:
+
+```
+%cd GitTechWebsite#
 ```
 
 ### 3.  Create a branch for your changes:  
