@@ -5,17 +5,12 @@ This repository will be a simple web page that everyone contributes to. Contribu
 
  
 
-### 1. In Terminal, navigate to your work folder and create a new folder for the exercise:
-Substitute the # with your Cohort number
+### 1. In Terminal, navigate to your work folder:
+You should have created a working folder earlier while reviewing terminal commnands: 
 ```
-%mkdir c#Website 
+%cd <yourFolder> 
 ```
-
-### 2. In Terminal, change to the folder:  
-```
-%cd c#Website  
-```
-### 3. Clone the directory. You can get the clone address by navigating to the repository in a web browser and clicking on the green "<>Code" button and copying the HTTPS URL address 
+### 2. Clone the directory. You can get the clone address by navigating to the repository in a web browser and clicking on the green "<>Code" button and copying the HTTPS URL address 
  <img src="images/gitCloneCode.jpg" width="40%" length="40%"> 
  In Terminal, clone the repository using the copied URL: 
  Remember to subtitute the # with your Cohort number.
