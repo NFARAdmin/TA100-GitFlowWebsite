@@ -14,10 +14,12 @@ You should have created a working folder earlier while reviewing terminal commna
  <img src="images/gitCloneCode.jpg" width="40%" length="40%"> 
  In Terminal, clone the repository using the copied URL: 
  Remember to subtitute the # with your Cohort number.
+ 
 ```
 %git clone https://github.com/TechCohort#/TA100-GitFlowWebsite.git 	 
 ```
 At this point you can move into the repository folder you created:
+
 ```
 %cd TA100-GitFlowWebsite
 ```
