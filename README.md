@@ -1,5 +1,8 @@
 In this exercise we will practice using GIT.  This will allow everyone to practice the following:
 
+- Introduction to GIT/GIT Hub
+- Introduction to Terminal
+- Introduction to VS Code
 - Cloning a repository
 - Pulling from the main branch
 - Creating a branch
