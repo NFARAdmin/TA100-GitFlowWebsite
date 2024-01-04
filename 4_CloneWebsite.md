@@ -65,6 +65,8 @@ Let's make sure that we push this branch to GitHub (there are no updates or chan
 ```
 %git push –u origin <branch name> 
 ```
+
+Got an error message? 
 ### 6. Check that the branch has been successfully pushed up. To confirm that the branch has been pushed, head over to GitHub and click the "branches" drop-down. You should see the branch there: 
 
 ![branch-dropdown](images/gitBranchDropDown.jpg)
