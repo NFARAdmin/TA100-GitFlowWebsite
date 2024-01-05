@@ -4,11 +4,12 @@ For our team project we will work on a website that will NOT be publicly availab
 This repository will be a simple web page that everyone will make their contribution. Contributions will be limited to adding personal info to the website. Please note that letters in between greater than and less than ( `<example>` ) are examples and `%` is the Terminal prompt and not part of the Git commands.  
 
 ### GitHub Organizations:
-GitHub has a ton of features and will try to get the main ones during this course. One of those features is [organizations](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/about-organizations). Organizations serve as a container for your shared work and gives the work a unique name and brand. It also offers addtional features that you will access later on (i.e. project board, apps, etc.). You belong to an organization here at NFAR: TechCohort# (# is your cohort number). After you log in to GitHub click on the upper right icon and a menu will appear. From that menu click on "Your organizations". 
+GitHub has a ton of features and will try to get the main ones during this course. One of those features is [organizations](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/about-organizations). Organizations serve as a container for your shared work and gives the work a unique name and brand. It also offers addtional features that you will access later on (i.e. project board, apps, etc.). You belong to an organization here at NFAR: TechCohort# (# is your cohort number). After you log in to GitHub click on the upper right icon and a menu will appear. From that menu click on "Your organizations". After you navigate you will see a that you were invited to join the TechCohort# organization (see below). Click on "Accept".     
 
- <img src="images/gitCloneCode.jpg" width="40%" length="40%">
+ <img src="images/GitHubAcceptOrganization.jpg" width="60%" length="60%">
 
-After you navigate   
+You are part of a GitHub organization now! After you accept you can click on the organization name and it will navigate to the organization's page. Towards the top you will see Repositories. Click on it and it will take you to the list of repositories available to this organization.
+
  
 ### 1. In Terminal, navigate to your work folder:
 You should have created a working folder earlier while reviewing terminal commands: 
