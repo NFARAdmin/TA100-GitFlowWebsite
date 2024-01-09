@@ -23,7 +23,7 @@ the following is important — here is the main thing to remember about Git 
 - Committed means that the data is safely stored in your local database.
 
 This leads us to the three main sections of a Git project: the working tree, the staging area, and the Git directory.
-
+ <img src="/images/GitStages.jpg" width="50%" height="50%">
 
 
 ### GitHub Workflow:
