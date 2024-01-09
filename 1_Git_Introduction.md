@@ -16,15 +16,28 @@ GitHub is a for-profit company that offers a cloud-based Git repository hosting 
 GitHub’s interface is user-friendly enough so even novice coders can take advantage of Git. Without GitHub, using Git generally requires a bit more technical savvy and use of the command line.
 
 ### Git Stages:
-the following is important — here is the main thing to remember about Git if you want the understand how to work with Git. Git has three main states that your files can reside in: modified, staged, and committed:
+The following is important — here is the main thing to remember if you want the understand how to work with Git. Git has three main states that your files can reside in: modified, staged, and committed:
 
 - Modified means that you have changed the file but have not committed it to your database yet.
 - Staged means that you have marked a modified file in its current version to go into your next commit snapshot.
 - Committed means that the data is safely stored in your local database.
 
 This leads us to the three main sections of a Git project: the working tree, the staging area, and the Git directory.
- <img src="/images/GitStages.jpg" width="50%" height="50%">
 
+ <img src="/images/GitStages.jpg" width="50%" height="50%">
+ 
+The working tree is a single checkout of one version of the project. These files are pulled out of the compressed database in the Git directory and placed on disk for you to use or modify.
+
+The staging area is a file, generally contained in your Git directory, that stores information about what will go into your next commit. Its technical name in Git parlance is the “index”, but the phrase “staging area” works just as well.
+
+The Git directory is where Git stores the metadata and object database for your project. This is the most important part of Git, and it is what is copied when you clone a repository from another computer.
+
+The basic Git workflow goes something like this:
+1. You modify files in your working tree.
+2. You selectively stage just those changes you want to be part of your next commit, which adds only those changes to the staging area.
+3. You do a commit, which takes the files as they are in the staging area and stores that snapshot permanently to your Git directory.
+
+If a particular version of a file is in the Git directory, it’s considered committed. If it has been modified and was added to the staging area, it is staged. And if it was changed since it was checked out but has not been staged, it is modified. Please refer to [Git documentation](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F) for deeper dive.
 
 ### GitHub Workflow:
 What does the work flow look like? Each circle represents a commit or change in the software. The green is the master or main source code that will most likely be hosted remotely (i.e. GitHub). The blue and orange are branches of the main branch. Branches allow you to develop features, fix bugs, or safely experiment with new ideas in a contained area of your repository. Notice that you can have other branches of the code that can eventually merge into the main branch. Branches allow the "main" branch to be the deployable working code.   
