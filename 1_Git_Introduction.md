@@ -5,7 +5,7 @@ Version control, also known as source control, is the practice of tracking and m
 
 So, regardless of whether you write code that only you will see, or work on as part of a team, Git will be useful for you. In some cases it may even be a required skill for a test team.
 
-Git is software that runs **locally**. You normally use Terminal (MacOs) or Git Bash (Windows) and use commands to manage the local repository and eventually push your changes to a remote repository in order to collaborate with others. Your files and their history are stored on your computer until you push them to a remote repository. 
+Git is software that runs **locally**. You normally use Terminal (MacOs) or Git Bash (Windows) and use git commands to manage the local repository and eventually push your changes to a remote repository in order to collaborate with others. Your files and their history are stored on your computer until you push them to a remote repository. Unlike other VCS software (i.e. CVS, Subversion, Perforce) you do not need to have an internet connection to do some work. You can work locally and eventually upload to remote repository when you have a internet connection.   
 
 But wait, if Git is run locally how can everyone be making changes? What do you mean by push to a remote repository? That is were GitHub comes in.
 
@@ -14,6 +14,17 @@ But wait, if Git is run locally how can everyone be making changes? What do you 
 GitHub is a for-profit company that offers a cloud-based Git repository hosting service. Essentially, it makes it a lot easier for individuals and teams to use Git for version control and collaboration. So, while Git is storing your code locally, GitHub is where you can store your code remotely and share with others. It's important to remember that GitHub is **_not_** Git. There are other companies who offer hosting services that do the same thing as GitHub, such as Bitbucket and GitLab, but GitHub is by far the most widely used, with over 100 million developers. It is even possible to have your own remote repository server, but it is much easer to use one of these services. 
 
 GitHub’s interface is user-friendly enough so even novice coders can take advantage of Git. Without GitHub, using Git generally requires a bit more technical savvy and use of the command line.
+
+### Git Stages:
+the following is important — here is the main thing to remember about Git if you want the understand how to work with Git. Git has three main states that your files can reside in: modified, staged, and committed:
+
+- Modified means that you have changed the file but have not committed it to your database yet.
+- Staged means that you have marked a modified file in its current version to go into your next commit snapshot.
+- Committed means that the data is safely stored in your local database.
+
+This leads us to the three main sections of a Git project: the working tree, the staging area, and the Git directory.
+
+
 
 ### GitHub Workflow:
 What does the work flow look like? Each circle represents a commit or change in the software. The green is the master or main source code that will most likely be hosted remotely (i.e. GitHub). The blue and orange are branches of the main branch. Branches allow you to develop features, fix bugs, or safely experiment with new ideas in a contained area of your repository. Notice that you can have other branches of the code that can eventually merge into the main branch. Branches allow the "main" branch to be the deployable working code.   
