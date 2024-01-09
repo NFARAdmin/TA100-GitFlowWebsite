@@ -2,6 +2,9 @@
 
 ## Intro to Terminal
 Many of the Git commands are run in Terminal. What is Terminal? The Mac Terminal is a command line interface (CLI) for the MacOS operating system (OS). Percy Grunwald from TopTechSkills has an excellent 15min video about Terminal for beginners. Please take a moment to view the [video](https://www.youtube.com/watch?v=aKRYQsKR46I) and familiarize yourself with Terminal then come back here. If interested in learning more on your own time, a more in depth explanation can be found [here](https://www.youtube.com/watch?v=ogWoUU2DXBU). 
+
+While there are many graphical user interface (GUI) based softwares that allow you to manage your repository, it is very important to learn the CLI commands. Many projects may only use the command line to interact with a remote repository, so it is basic skill level that you should learn.
+
 Here are some useful commands for terminal (% is prompt and not part of the command):
 
 ```
