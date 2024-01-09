@@ -1,6 +1,8 @@
 # Working in a Team:  
 
-Congratulations! Now you have an idea of what Git and GitHub are, and you have installed both of them as well. Maybe you've even pushed some of your code to your remote repository. But, have you worked with others on the same code? Ahh, that can be interesting. One of the many benefits of Git is that it allows many developers to work on the same code at once. There is a process for doing that. While there may be slight differences between organizations, they follow these general steps:
+Congratulations! Now you have an idea of what Git and GitHub are, and you have installed both of them as well. 
+
+Maybe you've even pushed some of your code to your remote repository. But, have you worked with others on the same code? Ahh, that can be interesting. One of the many benefits of Git is that it allows many developers to work on the same code at once. There is a process for doing that. While there may be slight differences between organizations, they follow these general steps:
 
 <!-- 1. --> 
    - #### Step 1. Clone or fork repository
