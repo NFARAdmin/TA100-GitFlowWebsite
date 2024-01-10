@@ -81,4 +81,4 @@ Make sure your remote branch is updated with the changes you pushed.
 
 You are now ready to submit a pull request. 
 
-### [Next - Step 6: Submit a Pull Request:](6_SubmitPullRequest.md)
+### [Next - Step 7: Submit a Pull Request:](7_SubmitPullRequest.md)
