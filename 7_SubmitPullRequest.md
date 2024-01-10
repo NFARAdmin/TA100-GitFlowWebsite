@@ -37,5 +37,5 @@ Make sure to fill out each area as described in the article. Below is a sample p
 
 Once you have filled out the pull request comments click on the green "Create pull request" button. Now your pull request gets reviewed and approved.
 
-### [Next - Step 7: Pull Request Review:](7_PullRequestReview.md) 
+### [Next - Step 8: Pull Request Review:](8_PullRequestReview.md) 
 
