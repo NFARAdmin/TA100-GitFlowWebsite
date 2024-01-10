@@ -75,13 +75,18 @@ Please note that you want to refrain from using spaces when creating file/folder
 
 Please note that there are also [keyboard shortcuts](https://support.apple.com/guide/terminal/keyboard-shortcuts-trmlshtcts/2.14/mac/14.0) for Terminal that you might find useful. 
 
-## GitHub 
-Can you use Git without a GitHub account? Yes, but then your repository will only be available locally and not available to others. You want to push your repository to a remote repository in order to collaborate with others. Do you have a GitHub account? If you do, great, if not, please create one here [GitHub Sign Up](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home). Make sure to use your **personal** email when creating the GitHub account. You will need to create a GitHub account in order to access a remote repository. Remember, *Git* is local, *GitHub* is remote. Please create the GitHub account and come back here.
+## Remote Repository 
+Can you use Git without a remote repository account? Yes, but then your repository will only be available locally and not available to others. You want to push your repository to a remote repository in order to collaborate with others. During this course we will be using GitHub; remember their are other services out there. Remember, *Git* is local, *GitHub* is for remote repositories. 
 
+Do you have a GitHub account? If you do, great, if not, please create one here [GitHub Sign Up](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home). Make sure to use your **personal** email when creating the GitHub account. You will eventually use this account to store your work and possiblky use on your resume. A couple of things about your GitHub account:
+   - Make sure to use two factor authentication when creating your account.
+   - Write down your GitHub username, password, and email for future use. You will need this for password recovery. 
+   - Email your GitHub username to your technical instructor.
 
+After creating your GitHub account we will come back here.  
 
 ## Do you have Git installed?
-Now that you have been introduced to Terminal let us get going with Git. Since we will be working with Macs, all steps are for MacOS. Most MacOS computers have Git pre-installed you just have to get it activated. If you want to work from home you have to take a couple more steps (more details later). 
+Now that you have been introduced to Terminal and have a GitHub account let us get going with Git. Since we will be working with Macs, all steps are for MacOS. Most MacOS computers have Git pre-installed you just have to get it activated. If you want to work from home you have to take a couple more steps (more details later). 
 
 1. Open Terminal. Since you will be working on shared computer lets make sure to create folder for all of your work. While in this home directory create a folder with your name (first initial and Last Name). If your name is "Wallace Grommet" the folder name will be "wGrommet". Enter the following command:
 
