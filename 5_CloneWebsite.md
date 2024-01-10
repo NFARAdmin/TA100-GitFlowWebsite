@@ -83,5 +83,5 @@ Wait, what happened? They are asking you to enter your GitHub username and passw
 Now that you have a local branch will  and have it showing up remotely you can contribute your assigned changes to the website.  
 
 
-### [Next - Step 5: Changes to Website:](5_MakeChangesToWebsite.md)
+### [Next - Step 6: Changes to Website:](6_MakeChangesToWebsite.md)
 
