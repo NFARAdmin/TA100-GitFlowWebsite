@@ -3,6 +3,7 @@ In this exercise we will practice using GIT.  This will allow everyone to practi
 - Introduction to GIT/GIT Hub
 - Introduction to Terminal
 - Introduction to VS Code
+- Initialize a Repository
 - Cloning a repository
 - Pulling from the main branch
 - Creating a branch
@@ -11,7 +12,6 @@ In this exercise we will practice using GIT.  This will allow everyone to practi
 - Get pull request merged
 - Update your branch with completed project
 
-This is the typical GIT workflow on a project. 
 
 
 
