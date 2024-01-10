@@ -156,4 +156,4 @@ This Terminal command shows you the contents of the folder and you should see th
 You just created a folder to save all of your work. Every time you open Terminal you will navigate to this folder before starting your work. 
 
 
-## [Next - Step 3: Working in a Team](3_TeamRepository.md)
+## [Next - Step 3: First Repository](3_InitializeRepository.md)
