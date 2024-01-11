@@ -80,7 +80,7 @@ Wait, what happened? They are asking you to enter your GitHub username and passw
 
 ![branch-dropdown](images/gitBranchDropDown.jpg)
 
-Now that you have a local branch will  and have it showing up remotely you can contribute your assigned changes to the website.  
+Now that you have a local branch and have it showing up remotely you can contribute your assigned changes to the website.  
 
 
 ### [Next - Step 6: Changes to Website:](6_MakeChangesToWebsite.md)
