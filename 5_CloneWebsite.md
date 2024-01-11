@@ -12,9 +12,9 @@ You are part of a GitHub organization now! After you accept you can click on the
 
  
 ### 1. In Terminal, navigate to your work folder:
-You should have created a working folder earlier while reviewing terminal commands: 
+You should have created a working folder with your name while reviewing terminal commands: 
 ```
-%cd <yourFolder> 
+%cd <yourName> 
 ```
 ### 2. Clone the repository: 
 You can get the clone address by navigating to the repository in a web browser and clicking on the green "<>Code" button and copying the HTTPS URL address: 
