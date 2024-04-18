@@ -17,7 +17,7 @@ You should have created a working folder earlier while reviewing terminal comman
 %cd <yourFolder> 
 ```
 ### 2. Clone the repository: 
-You can get the clone address by navigating to the repository in a web browser and clicking on the green "<>Code" button and copying the HTTPS URL address: 
+You can get the clone address by navigating to the repository in a web browser and clicking on the green "<>Code" button and copying the SSH URL address: 
 
  <img src="images/gitCloneCode.jpg" width="40%" length="40%"> 
  In Terminal, clone the GitTechWebsite# repository using the copied URL: 
