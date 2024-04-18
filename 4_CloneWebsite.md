@@ -74,8 +74,6 @@ Let's make sure that we push this branch to GitHub (there are no updates or chan
 %git push –u origin <branch name> 
 ```
 
-Wait, what happened? They are asking you to enter your GitHub username and password and got an error message? Github does not support passwords to log into our account. Instead you must use some form of [authentication](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github). There are several ways to authenticate, in our case we will be using a classic [Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic). We will set that up now.
-
 ### 6. Check that the branch has been successfully pushed up. To confirm that the branch has been pushed, head over to GitHub and click the "branches" drop-down. You should see the branch there: 
 
 ![branch-dropdown](images/gitBranchDropDown.jpg)
