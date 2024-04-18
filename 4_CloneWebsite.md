@@ -12,10 +12,12 @@ You are part of a GitHub organization now! After you accept you can click on the
 
  
 ### 1. In Terminal, navigate to your work folder:
-You should have created a working folder earlier while reviewing terminal commands: 
+When you clone a repository it creates a folder with the name of the repository inside the folder where you are executing the git clone command. Therefore navigate to the folder that you want to create your repository folder in: 
 ```
 %cd <yourFolder> 
 ```
+Remember, you can also do this within Visual Studio Code by navigating to the folder you want to cretae the repository in. 
+
 ### 2. Clone the repository: 
 You can get the clone address by navigating to the [repository](https://github.com/TechCohort15/GitTechWebsite15) in a web browser and clicking on the green "<>Code" button and copying the SSH URL address: 
 
@@ -26,7 +28,7 @@ You can get the clone address by navigating to the [repository](https://github.c
 ```
 % git clone git@github.com:TechCohort15/GitTechWebsite#.git
 ```
-This will clone the repository and create a folder inside your working folder with the repository name. At this point you can move into the repository folder you created:
+This will clone the repository and create a folder inside your working folder. At this point you can move into the repository folder you created:
 
 ```
 %cd GitTechWebsite#
