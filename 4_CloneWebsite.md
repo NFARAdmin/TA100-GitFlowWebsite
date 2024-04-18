@@ -17,14 +17,14 @@ You should have created a working folder earlier while reviewing terminal comman
 %cd <yourFolder> 
 ```
 ### 2. Clone the repository: 
-You can get the clone address by navigating to the repository in a web browser and clicking on the green "<>Code" button and copying the SSH URL address: 
+You can get the clone address by navigating to the [repository](https://github.com/TechCohort15/GitTechWebsite15) in a web browser and clicking on the green "<>Code" button and copying the SSH URL address: 
 
- <img src="images/gitCloneCode.jpg" width="40%" length="40%"> 
+ <img src="images/SSH Clone.jpg" width="40%" length="40%"> 
  In Terminal, clone the GitTechWebsite# repository using the copied URL: 
  Remember to subtitute the # with your Cohort number.
 
 ```
-% git clone https://github.com/TechCohort#/GitTechWebsite#.git
+% git clone git@github.com:TechCohort15/GitTechWebsite#.git
 ```
 This will clone the repository and create a folder inside your working folder with the repository name. At this point you can move into the repository folder you created:
 
