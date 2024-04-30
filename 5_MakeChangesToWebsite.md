@@ -43,7 +43,7 @@ Each person will be assigned a cohort card number. You can find your assigned Co
         
  ```       
 You will update the following: 
-- Upload your picture to the image folder (shoulder and up). We can take picture here. The image file name will be `cohort#.jpg`. So the image for cohort 1 will be `cohort1.jpg`. 
+- Upload your picture to the image folder (shoulder and up). We can take the picture here. The image file name will be cohort#.jpg. So the image for cohort 1 will be cohort1.jpg. In order to make the image a square you can use the following website: [https://squareanimage.com/](https://squareanimage.com/). 
 - Change the `img src=` to point to the image you uploaded
 - In the `<h2>Your Name` enter your First and Last Name
 - In the `<p>Some text...` enter short sentence that describes somethign about you (i.e. maybe a hobby, that you are a Tech Participant at NFAR, etc.)
