@@ -12,7 +12,7 @@ The main branch is typically the repository that everyone can count on to work. 
 
 <img src="images/newPullRequest.jpg">
 
-3. By default the "base:main" branch will show up in the left dropdown box. If not make sure it is: TechCohort15
+3. By default the "base:main" branch will show up in the left dropdown box. If not, make sure it is: TechCohort15
 /GitTechWebsite15 .   Select your branch from the right dropdown box and then click on the green "Create pull request" button
 
 <img src="images/selectBranchForPR.jpg" width="80%" length="80%">
